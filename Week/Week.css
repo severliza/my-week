@@ -1,0 +1,84 @@
+.Week {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+  }
+  
+  .Week-logo {
+    height: 40vmin;
+  }
+  
+  .Week-header {
+    background-color: rgba(24, 23, 22, 0.7);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    color: white;
+    font-size: calc(5px + 2vmin);
+    font-family: initial;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+  }
+
+  .monthName{
+    opacity: 1;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: calc(5px + 4vmin);
+  }
+
+  .signOut{
+    padding-right: 20px;
+  }
+
+  .signout-btn{
+    /* margin-left: auto; */
+    color:white;
+  }
+  
+  .dates{
+    font-size: calc(5px + 2vmin);
+  }
+  
+  .Week-link {
+    color: #09d3ac;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+
+  .leftPart{
+    min-width: 270px;
+    width: 270px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* background-color: rgb(247, 227, 193); */
+    /* border: 1px solid green; */
+  }
+  
+  .rightpart{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* background-color:rgb(212, 167, 121); */
+    width: 100%;
+    height: 100%;
+    /* left: 18vw; */
+    /* top: -85vh; */
+    /* border: 1px solid blue; */
+  }
+  

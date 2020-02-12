@@ -1,0 +1,59 @@
+body{
+    overflow: hidden;
+}
+
+header{
+    background: rgb(253, 253, 169);
+    width: 98vw;
+    height: 20vh;
+}
+
+.leftPart{
+    background: rgb(253, 253, 191);
+    position: relative;
+    width: 20vw;
+    height: 77vh;
+}
+
+.cell{
+    background: rgb(166, 255, 213);
+    width: 20px;
+    height: 20px;
+}
+
+.tracker{
+    width: 200px;
+    height: 100px;
+    border-collapse: collapse;
+}
+
+.rightpart table{
+    border-collapse: collapse;
+ }
+ 
+ .rightpart td{
+     text-align:right;
+     border: 0;
+ }
+
+ .rightpart th{
+     font-size: small;
+ }
+
+.rightpart{
+    background: rgb(253, 253, 211);
+    position: relative;
+    width: 78vw;
+    height: 77vh;
+    left: 20vw;
+    top:-77vh;
+}
+
+.day{
+    background: rgb(255, 252, 221);
+    width: 10vw;
+    height: 70vh;
+    border: 1px solid rgb(190, 169, 169);
+    margin: 0;
+}
+

@@ -1,0 +1,65 @@
+.tracker{
+    margin: 25px;
+    background-color: rgba(214, 187, 160, 0.3);
+    width: 240px;
+    height: 200px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.table{
+    
+}
+
+.for-table{
+    padding-left: 7px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+#new-tracker{
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 70px;
+    background-color: rgba(236, 204, 171, 0.411);
+    box-shadow: 0 0 5px rgba(95, 81, 72, 0.2);
+}
+
+.h3{
+    margin: 1vw;
+    font-size: calc(5px + 2vmin);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+
+.square{
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    border:  1px solid rgb(255, 252, 221);
+}
+
+.habit{
+    display: flex;
+}
+
+.name-of-habit{
+    height: 20px;
+    width: 66px;
+}
+
+.empty{
+    height: 20px;
+    width: 57px;
+}
+
+.nameOfTheDay{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: small;
+}
+

@@ -1,0 +1,79 @@
+.planner{
+    padding-left: 10px;
+    padding-top: 15px;
+    display: flex;
+}
+
+/* .table{
+} */
+
+td{
+     /* text-align:right; */
+     padding: 0;
+     border: 0;
+     margin: 0;
+ }
+
+td.plannerTable{
+    text-align:right;
+}
+
+ th{
+     font-size: small;
+ }
+
+.day{
+    /* background: rgb(255, 252, 221); */
+    padding-top: 0;
+    width: 8vw;
+    height: 500px;
+    border: 1px solid rgb(216, 195, 177);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.event{
+    position: absolute;
+    display: flex;
+    justify-content:center;
+}
+
+.eventName{
+    text-align: center;
+}
+
+.t{
+
+}
+
+.add{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 35px 0px 0px 30px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.btn-add{
+    background-color: rgba(214, 187, 160, 0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+.time-panel{
+
+}
+
+.time{
+    margin: 10px;
+    width: 40%;
+}

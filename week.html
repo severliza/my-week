@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Week</title>
+	<meta charset="utf-8">
+	<link href="weekStyle.css" rel="stylesheet">
+	<script src="week.js"></script>
+</head>
+
+<body onload="startEdit()">
+    
+    <header class="header">
+        <div><h1 id="month">November</h1><h2 id="span">18-24</h2></div>
+    </header>
+
+    <div class="main">
+
+
+        <article class="leftPart">
+           <table>
+               <tr><th colspan="2">To do list</th></tr>
+               <tr><td><input type="checkbox"></td><td contenteditable='true'>Task1</td></tr>
+               <tr><td><input type="checkbox"></td><td contenteditable='true'>Task2</td></tr>
+               <tr><td><input type="checkbox"></td><td contenteditable='true'>Task3</td></tr>
+               <tr><td></td><td contenteditable='true'></td></tr>
+               <tr><td></td><td contenteditable='true'></td></tr>
+               <tr><td></td><td contenteditable='true'></td></tr>
+             </table>
+
+           <p>       Tracker</p>
+           <table class="tracker">
+               <tr><th>sugar</th><td><canvas class="cell"></canvas></td><td><canvas class="cell"></canvas></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td></tr>
+               <tr><th>exercise</th><td><canvas class="cell"></canvas></td><td><canvas class="cell"></canvas></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td></tr>
+               <tr><th>wake</th><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td></tr>
+               <tr><th></th><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td></tr>
+               <tr><th></th><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td></tr>
+               <tr><th></th><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td><td><div class="cell"></div></td></tr>
+            </table>
+        </article>
+
+
+
+
+
+        <article class="rightpart">
+            <table>
+                <tr><th></th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th><th>S</th></tr>
+                <tr>
+                    <td>6</td>
+                    <td rowspan="19"><canvas class="day" id="mon"></canvas></td>
+                    <td rowspan="19"><canvas class="day" id="tue"></canvas></td>
+                    <td rowspan="19"><canvas class="day" id="wed"></canvas></td>
+                    <td rowspan="19"><canvas class="day" id="thu"></canvas></td>
+                    <td rowspan="19"><canvas class="day" id="fri"></canvas></td>
+                    <td rowspan="19"><canvas class="day" id="sat"></canvas></td>
+                    <td rowspan="19"><canvas class="day" id="sun"></canvas></td>
+                </tr>
+                <tr><td>7</td></tr><tr><td>8</td></tr><tr><td>9</td></tr><tr><td>10</td></tr><tr><td>11</td></tr><tr><td>12</td></tr>
+                <tr><td>13</td></tr><tr><td>14</td></tr><tr><td>15</td></tr><tr><td>16</td></tr><tr><td>17</td></tr><tr><td>18</td></tr>
+                <tr><td>19</td></tr><tr><td>20</td></tr><tr><td>21</td></tr><tr><td>22</td></tr><tr><td>23</td></tr>
+            </table>
+    
+        </article>
+    </div>
+
+    
+</body>
+</html>
